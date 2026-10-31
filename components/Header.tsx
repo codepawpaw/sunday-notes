@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useCart } from "./CartProvider";
-import { BagIcon, BrandMark, CloseIcon, GlobeIcon, MenuIcon, SearchIcon, UserIcon } from "./Icons";
+import { BagIcon, BrandMark, ChevronIcon, CloseIcon, GlobeIcon, MenuIcon, SearchIcon, UserIcon } from "./Icons";
 
 export const NAV_LINKS = [
   { label: "New & Featured", href: "/c/new" },
@@ -39,6 +39,11 @@ export default function Header({ brandName }: { brandName: string }) {
     setMenuOpen(false);
   }, [pathname]);
 
+  useEffect(() => {
+    document.body.style.overflow = menuOpen || searchOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [menuOpen, searchOpen]);
+
   const submit = (term: string) => {
     const t = term.trim();
     if (!t) return;
@@ -62,8 +67,8 @@ export default function Header({ brandName }: { brandName: string }) {
           </nav>
           <div className="header-actions">
             <button className="act" onClick={() => setSearchOpen(true)}><SearchIcon /><span>Search</span></button>
-            <button className="act" aria-label="Region"><GlobeIcon /><span>US (USD)</span></button>
-            <Link className="act" href="/admin" aria-label="Account"><UserIcon /></Link>
+            <button className="act hide-m" aria-label="Region"><GlobeIcon /><span>US (USD)</span></button>
+            <Link className="act hide-m" href="/admin" aria-label="Account"><UserIcon /></Link>
             <Link className="bag-btn" href="/bag" aria-label={`Bag, ${count} items`}>
               <BagIcon />
               {count > 0 && <span className="bag-count">{count}</span>}
@@ -89,12 +94,25 @@ export default function Header({ brandName }: { brandName: string }) {
         </div>
       )}
 
-      {menuOpen && (
-        <div className="mobile-nav">
-          <button aria-label="Close menu" onClick={() => setMenuOpen(false)} style={{ alignSelf: "flex-end" }}><CloseIcon size={22} /></button>
-          {NAV_LINKS.map((l) => <Link key={l.href} href={l.href}>{l.label}</Link>)}
+      <div className={`mobile-nav${menuOpen ? " open" : ""}`} aria-hidden={!menuOpen}>
+        <div className="mobile-nav-head">
+          <Link href="/" className="logo"><BrandMark /><span>{brandName}</span></Link>
+          <button aria-label="Close menu" onClick={() => setMenuOpen(false)}><CloseIcon size={22} /></button>
         </div>
-      )}
+        <nav className="mobile-nav-main" aria-label="Mobile">
+          {NAV_LINKS.map((l) => (
+            <Link key={l.href} href={l.href} tabIndex={menuOpen ? 0 : -1}>
+              <span>{l.label}</span><ChevronIcon />
+            </Link>
+          ))}
+        </nav>
+        <div className="mobile-nav-foot">
+          <Link href="/admin" tabIndex={menuOpen ? 0 : -1}><UserIcon /> Sign In</Link>
+          <Link href="/bag" tabIndex={menuOpen ? 0 : -1}><BagIcon /> Bag{count > 0 ? ` (${count})` : ""}</Link>
+          <span><GlobeIcon /> US (USD)</span>
+        </div>
+      </div>
+      {menuOpen && <div className="mobile-nav-scrim" onClick={() => setMenuOpen(false)} />}
     </>
   );
 }

@@ -21,6 +21,14 @@ export default function ProductDetail({ product, crumbs }: Props) {
   const [size, setSize] = useState<string | null>(product.sizes.length === 1 ? product.sizes[0] : null);
   const [msg, setMsg] = useState<{ text: string; err?: boolean } | null>(null);
   const [liked, setLiked] = useState(false);
+  const [slide, setSlide] = useState(0);
+
+  const onTrackScroll = () => {
+    const el = trackRef.current;
+    const first = el?.firstElementChild as HTMLElement | null;
+    if (!el || !first) return;
+    setSlide(Math.min(product.images.length - 1, Math.round(el.scrollLeft / (first.offsetWidth + 3))));
+  };
 
   const scroll = (dir: 1 | -1) => {
     const el = trackRef.current;
@@ -62,9 +70,10 @@ export default function ProductDetail({ product, crumbs }: Props) {
   return (
     <div className="pdp">
       <div className="pdp-gallery">
-        <div className="pdp-track" ref={trackRef}>
+        <div className="pdp-track" ref={trackRef} onScroll={onTrackScroll}>
           {product.images.map((src, i) => <img key={src + i} src={src} alt={`${product.name} view ${i + 1}`} />)}
         </div>
+        <div className="pdp-counter" aria-hidden>{slide + 1} / {product.images.length}</div>
         <div className="pdp-gallery-ctrl">
           <span className="circle-btn" aria-hidden><HangerIcon /></span>
           <div className="arrows arrows-white">
@@ -126,6 +135,14 @@ export default function ProductDetail({ product, crumbs }: Props) {
         )}
 
         <div className="pdp-desc">{product.description}</div>
+      </div>
+
+      <div className="pdp-sticky">
+        <div>
+          <div className="pdp-sticky-name">{product.name}</div>
+          <div>{formatPrice(product.price)}{size ? ` · Size ${size}` : ""}</div>
+        </div>
+        <button className="pill pill-black" onClick={addToBag}>Add to Bag</button>
       </div>
     </div>
   );

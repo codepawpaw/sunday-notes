@@ -14,15 +14,15 @@
         "subtitle": "In the Pulse Piped Set’s breathable, sweat-wicking fabric, you’ve got more.",
         "ctaLabel": "Shop Women's What's New",
         "ctaHref": "/c/women?tag=new",
-        "image": "https://picsum.photos/seed/hero-calm/2400/1500"
+        "image": "/images/u32.jpg"
       },
       {
         "id": "h2",
-        "title": "Built for the cold miles.",
-        "subtitle": "Lightweight down that packs small and keeps you warm on every route.",
-        "ctaLabel": "Shop Outerwear",
-        "ctaHref": "/c/outerwear",
-        "image": "https://picsum.photos/seed/hero-cold/2400/1500"
+        "title": "Train with intent.",
+        "subtitle": "Support that holds steady through every rep, rope and sprint.",
+        "ctaLabel": "Shop Activity",
+        "ctaHref": "/c/activity",
+        "image": "/images/u04.jpg"
       },
       {
         "id": "h3",
@@ -30,59 +30,59 @@
         "subtitle": "Training gear for men that keeps up from the first rep to the last.",
         "ctaLabel": "Shop Men's What's New",
         "ctaHref": "/c/men?tag=new",
-        "image": "https://picsum.photos/seed/hero-move/2400/1500"
+        "image": "/images/u09.jpg"
       }
     ],
     "trending": {
       "women": [
         {
           "id": "tw1",
-          "title": "Glide Flared Pant",
-          "image": "https://picsum.photos/seed/trend-w1/900/1080",
-          "href": "/p/glide-flared-pant-silk-touch"
+          "title": "Training Shop",
+          "image": "/images/u31.jpg",
+          "href": "/c/activity"
         },
         {
           "id": "tw2",
           "title": "Winter Layers",
-          "image": "https://picsum.photos/seed/trend-w2/900/1080",
+          "image": "/images/u59.jpg",
           "href": "/c/outerwear"
         },
         {
           "id": "tw3",
-          "title": "Scuba Shop",
-          "image": "https://picsum.photos/seed/trend-w3/900/1080",
+          "title": "Fleece Sets",
+          "image": "/images/u18.jpg",
           "href": "/p/ease-scuba-half-zip-hoodie"
         },
         {
           "id": "tw4",
           "title": "Fall 2026",
-          "image": "https://picsum.photos/seed/trend-w4/900/1080",
+          "image": "/images/u27.jpg",
           "href": "/c/women?tag=new"
         }
       ],
       "men": [
         {
           "id": "tm1",
-          "title": "Daymaker Pant",
-          "image": "https://picsum.photos/seed/trend-m1/900/1080",
-          "href": "/p/daymaker-pant-warpweave"
+          "title": "Training Shop",
+          "image": "/images/u39.jpg",
+          "href": "/c/activity"
         },
         {
           "id": "tm2",
           "title": "Cold Weather Edit",
-          "image": "https://picsum.photos/seed/trend-m2/900/1080",
+          "image": "/images/u51.jpg",
           "href": "/c/outerwear"
         },
         {
           "id": "tm3",
           "title": "Fleece Shop",
-          "image": "https://picsum.photos/seed/trend-m3/900/1080",
+          "image": "/images/u26.jpg",
           "href": "/p/steady-fleece-pullover-hoodie"
         },
         {
           "id": "tm4",
           "title": "Fall 2026",
-          "image": "https://picsum.photos/seed/trend-m4/900/1080",
+          "image": "/images/u57.jpg",
           "href": "/c/men?tag=new"
         }
       ]
@@ -91,89 +91,89 @@
       "women": [
         {
           "id": "cw1",
-          "title": "Cranberry Brown",
-          "image": "https://picsum.photos/seed/col-w1/900/1080",
+          "title": "Ember Orange",
+          "image": "/images/u01.jpg",
           "href": "/c/women",
-          "bg": "#e9dbe6"
+          "bg": "#f3e4dc"
         },
         {
           "id": "cw2",
-          "title": "Moonlit Green",
-          "image": "https://picsum.photos/seed/col-w2/900/1080",
+          "title": "Black",
+          "image": "/images/u13.jpg",
           "href": "/c/women",
-          "bg": "#dde5e2"
+          "bg": "#e3e3e3"
         },
         {
           "id": "cw3",
-          "title": "Fuchsia Taffy",
-          "image": "https://picsum.photos/seed/col-w3/900/1080",
+          "title": "Olive Moss",
+          "image": "/images/u32.jpg",
           "href": "/c/women",
-          "bg": "#f5e1ef"
+          "bg": "#e2e5dc"
         },
         {
           "id": "cw4",
-          "title": "Midnight Navy",
-          "image": "https://picsum.photos/seed/col-w4/900/1080",
+          "title": "Sunbeam Yellow",
+          "image": "/images/u59.jpg",
           "href": "/c/women",
-          "bg": "#e4e2f0"
+          "bg": "#f5efd9"
         },
         {
           "id": "cw5",
-          "title": "Cobalt Sprint",
-          "image": "https://picsum.photos/seed/col-w5/900/1080",
+          "title": "Glacier Blue",
+          "image": "/images/u17.jpg",
           "href": "/c/women",
-          "bg": "#dfe0ee"
+          "bg": "#e0e6ef"
         },
         {
           "id": "cw6",
-          "title": "Espresso Bean",
-          "image": "https://picsum.photos/seed/col-w6/900/1080",
+          "title": "Caramel",
+          "image": "/images/u52.jpg",
           "href": "/c/women",
-          "bg": "#d6cdbf"
+          "bg": "#ece2d6"
         }
       ],
       "men": [
         {
           "id": "cm1",
-          "title": "Black",
-          "image": "https://picsum.photos/seed/col-m1/900/1080",
+          "title": "White",
+          "image": "/images/u36.jpg",
           "href": "/c/men",
-          "bg": "#e3e3e3"
+          "bg": "#efefef"
         },
         {
           "id": "cm2",
-          "title": "Deep Forest",
-          "image": "https://picsum.photos/seed/col-m2/900/1080",
+          "title": "Heather Grey",
+          "image": "/images/u26.jpg",
           "href": "/c/men",
-          "bg": "#dde5e2"
+          "bg": "#e4e4e4"
         },
         {
           "id": "cm3",
-          "title": "Slate Blue",
-          "image": "https://picsum.photos/seed/col-m3/900/1080",
+          "title": "Black",
+          "image": "/images/u39.jpg",
           "href": "/c/men",
-          "bg": "#e0e4ec"
+          "bg": "#dedede"
         },
         {
           "id": "cm4",
-          "title": "Bone",
-          "image": "https://picsum.photos/seed/col-m4/900/1080",
+          "title": "Olive",
+          "image": "/images/u54.jpg",
           "href": "/c/men",
-          "bg": "#efebe3"
+          "bg": "#e5e4da"
         },
         {
           "id": "cm5",
-          "title": "Rust",
-          "image": "https://picsum.photos/seed/col-m5/900/1080",
+          "title": "Camel",
+          "image": "/images/u57.jpg",
           "href": "/c/men",
-          "bg": "#ecdcd6"
+          "bg": "#ece4d8"
         },
         {
           "id": "cm6",
-          "title": "Charcoal",
-          "image": "https://picsum.photos/seed/col-m6/900/1080",
+          "title": "Indigo Denim",
+          "image": "/images/u58.jpg",
           "href": "/c/men",
-          "bg": "#dedede"
+          "bg": "#dfe2ea"
         }
       ]
     },
@@ -183,7 +183,7 @@
       "subtitle": "Less noise. More focus. Gear that disappears so you can show up.",
       "ctaLabel": "Explore the Collection",
       "ctaHref": "/c/activity",
-      "image": "https://picsum.photos/seed/banner-quiet/2400/1200"
+      "image": "/images/u33.jpg"
     },
     "whatsNew": {
       "title": "What’s new? Glad you asked.",
@@ -211,10 +211,10 @@
         "activity"
       ],
       "images": [
-        "https://picsum.photos/seed/pulse-piped-strappy-tank-light-support-1/900/1080",
-        "https://picsum.photos/seed/pulse-piped-strappy-tank-light-support-2/900/1080",
-        "https://picsum.photos/seed/pulse-piped-strappy-tank-light-support-3/900/1080",
-        "https://picsum.photos/seed/pulse-piped-strappy-tank-light-support-4/900/1080"
+        "/images/u13.jpg",
+        "/images/u31.jpg",
+        "/images/u12.jpg",
+        "/images/u35.jpg"
       ],
       "bestsellerColours": [
         {
@@ -285,10 +285,10 @@
         "activity"
       ],
       "images": [
-        "https://picsum.photos/seed/pulse-piped-high-rise-tight-25-1/900/1080",
-        "https://picsum.photos/seed/pulse-piped-high-rise-tight-25-2/900/1080",
-        "https://picsum.photos/seed/pulse-piped-high-rise-tight-25-3/900/1080",
-        "https://picsum.photos/seed/pulse-piped-high-rise-tight-25-4/900/1080"
+        "/images/u01.jpg",
+        "/images/u12.jpg",
+        "/images/u32.jpg",
+        "/images/u31.jpg"
       ],
       "bestsellerColours": [
         {
@@ -395,10 +395,10 @@
         "outerwear"
       ],
       "images": [
-        "https://picsum.photos/seed/featherlite-cropped-quilted-puffer-1/900/1080",
-        "https://picsum.photos/seed/featherlite-cropped-quilted-puffer-2/900/1080",
-        "https://picsum.photos/seed/featherlite-cropped-quilted-puffer-3/900/1080",
-        "https://picsum.photos/seed/featherlite-cropped-quilted-puffer-4/900/1080"
+        "/images/u59.jpg",
+        "/images/u49.jpg",
+        "/images/u17.jpg",
+        "/images/u42.jpg"
       ],
       "bestsellerColours": [
         {
@@ -481,10 +481,10 @@
         "activity"
       ],
       "images": [
-        "https://picsum.photos/seed/pulse-cropped-long-sleeve-half-zip-1/900/1080",
-        "https://picsum.photos/seed/pulse-cropped-long-sleeve-half-zip-2/900/1080",
-        "https://picsum.photos/seed/pulse-cropped-long-sleeve-half-zip-3/900/1080",
-        "https://picsum.photos/seed/pulse-cropped-long-sleeve-half-zip-4/900/1080"
+        "/images/u31.jpg",
+        "/images/u13.jpg",
+        "/images/u12.jpg",
+        "/images/u01.jpg"
       ],
       "bestsellerColours": [
         {
@@ -554,10 +554,10 @@
         "new"
       ],
       "images": [
-        "https://picsum.photos/seed/cloudloft-oversized-wide-leg-pant-1/900/1080",
-        "https://picsum.photos/seed/cloudloft-oversized-wide-leg-pant-2/900/1080",
-        "https://picsum.photos/seed/cloudloft-oversized-wide-leg-pant-3/900/1080",
-        "https://picsum.photos/seed/cloudloft-oversized-wide-leg-pant-4/900/1080"
+        "/images/u06.jpg",
+        "/images/u18.jpg",
+        "/images/u27.jpg",
+        "/images/u52.jpg"
       ],
       "bestsellerColours": [
         {
@@ -648,10 +648,10 @@
         "bestseller"
       ],
       "images": [
-        "https://picsum.photos/seed/contour-jacket-silk-touch-1/900/1080",
-        "https://picsum.photos/seed/contour-jacket-silk-touch-2/900/1080",
-        "https://picsum.photos/seed/contour-jacket-silk-touch-3/900/1080",
-        "https://picsum.photos/seed/contour-jacket-silk-touch-4/900/1080"
+        "/images/u42.jpg",
+        "/images/u17.jpg",
+        "/images/u49.jpg",
+        "/images/u59.jpg"
       ],
       "bestsellerColours": [
         {
@@ -805,10 +805,10 @@
         "trending"
       ],
       "images": [
-        "https://picsum.photos/seed/glide-flared-pant-silk-touch-1/900/1080",
-        "https://picsum.photos/seed/glide-flared-pant-silk-touch-2/900/1080",
-        "https://picsum.photos/seed/glide-flared-pant-silk-touch-3/900/1080",
-        "https://picsum.photos/seed/glide-flared-pant-silk-touch-4/900/1080"
+        "/images/u32.jpg",
+        "/images/u33.jpg",
+        "/images/u35.jpg",
+        "/images/u02.jpg"
       ],
       "bestsellerColours": [
         {
@@ -906,10 +906,10 @@
         "trending"
       ],
       "images": [
-        "https://picsum.photos/seed/ease-scuba-half-zip-hoodie-1/900/1080",
-        "https://picsum.photos/seed/ease-scuba-half-zip-hoodie-2/900/1080",
-        "https://picsum.photos/seed/ease-scuba-half-zip-hoodie-3/900/1080",
-        "https://picsum.photos/seed/ease-scuba-half-zip-hoodie-4/900/1080"
+        "/images/u27.jpg",
+        "/images/u18.jpg",
+        "/images/u25.jpg",
+        "/images/u52.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1023,10 +1023,10 @@
         "activity"
       ],
       "images": [
-        "https://picsum.photos/seed/flow-seamless-bra-medium-support-1/900/1080",
-        "https://picsum.photos/seed/flow-seamless-bra-medium-support-2/900/1080",
-        "https://picsum.photos/seed/flow-seamless-bra-medium-support-3/900/1080",
-        "https://picsum.photos/seed/flow-seamless-bra-medium-support-4/900/1080"
+        "/images/u12.jpg",
+        "/images/u13.jpg",
+        "/images/u31.jpg",
+        "/images/u01.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1121,10 +1121,10 @@
         "markdown"
       ],
       "images": [
-        "https://picsum.photos/seed/flow-high-rise-short-6-1/900/1080",
-        "https://picsum.photos/seed/flow-high-rise-short-6-2/900/1080",
-        "https://picsum.photos/seed/flow-high-rise-short-6-3/900/1080",
-        "https://picsum.photos/seed/flow-high-rise-short-6-4/900/1080"
+        "/images/u52.jpg",
+        "/images/u12.jpg",
+        "/images/u01.jpg",
+        "/images/u35.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1219,10 +1219,10 @@
         "markdown"
       ],
       "images": [
-        "https://picsum.photos/seed/stride-run-jacket-1/900/1080",
-        "https://picsum.photos/seed/stride-run-jacket-2/900/1080",
-        "https://picsum.photos/seed/stride-run-jacket-3/900/1080",
-        "https://picsum.photos/seed/stride-run-jacket-4/900/1080"
+        "/images/u16.jpg",
+        "/images/u07.jpg",
+        "/images/u42.jpg",
+        "/images/u17.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1301,10 +1301,10 @@
         "bestseller"
       ],
       "images": [
-        "https://picsum.photos/seed/daymaker-pant-warpweave-1/900/1080",
-        "https://picsum.photos/seed/daymaker-pant-warpweave-2/900/1080",
-        "https://picsum.photos/seed/daymaker-pant-warpweave-3/900/1080",
-        "https://picsum.photos/seed/daymaker-pant-warpweave-4/900/1080"
+        "/images/u54.jpg",
+        "/images/u57.jpg",
+        "/images/u20.jpg",
+        "/images/u46.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1385,10 +1385,10 @@
         "new"
       ],
       "images": [
-        "https://picsum.photos/seed/steady-fleece-pullover-hoodie-1/900/1080",
-        "https://picsum.photos/seed/steady-fleece-pullover-hoodie-2/900/1080",
-        "https://picsum.photos/seed/steady-fleece-pullover-hoodie-3/900/1080",
-        "https://picsum.photos/seed/steady-fleece-pullover-hoodie-4/900/1080"
+        "/images/u26.jpg",
+        "/images/u25.jpg",
+        "/images/u57.jpg",
+        "/images/u54.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1474,10 +1474,10 @@
         "bestseller"
       ],
       "images": [
-        "https://picsum.photos/seed/baseline-short-sleeve-tee-1/900/1080",
-        "https://picsum.photos/seed/baseline-short-sleeve-tee-2/900/1080",
-        "https://picsum.photos/seed/baseline-short-sleeve-tee-3/900/1080",
-        "https://picsum.photos/seed/baseline-short-sleeve-tee-4/900/1080"
+        "/images/u36.jpg",
+        "/images/u22.jpg",
+        "/images/u46.jpg",
+        "/images/u20.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1579,10 +1579,10 @@
         "markdown"
       ],
       "images": [
-        "https://picsum.photos/seed/pace-lined-short-7-1/900/1080",
-        "https://picsum.photos/seed/pace-lined-short-7-2/900/1080",
-        "https://picsum.photos/seed/pace-lined-short-7-3/900/1080",
-        "https://picsum.photos/seed/pace-lined-short-7-4/900/1080"
+        "/images/u09.jpg",
+        "/images/u07.jpg",
+        "/images/u04.jpg",
+        "/images/u39.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1676,10 +1676,10 @@
         "new"
       ],
       "images": [
-        "https://picsum.photos/seed/ridgeline-down-jacket-1/900/1080",
-        "https://picsum.photos/seed/ridgeline-down-jacket-2/900/1080",
-        "https://picsum.photos/seed/ridgeline-down-jacket-3/900/1080",
-        "https://picsum.photos/seed/ridgeline-down-jacket-4/900/1080"
+        "/images/u51.jpg",
+        "/images/u15.jpg",
+        "/images/u58.jpg",
+        "/images/u16.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1748,10 +1748,10 @@
         "activity"
       ],
       "images": [
-        "https://picsum.photos/seed/tempo-training-jogger-1/900/1080",
-        "https://picsum.photos/seed/tempo-training-jogger-2/900/1080",
-        "https://picsum.photos/seed/tempo-training-jogger-3/900/1080",
-        "https://picsum.photos/seed/tempo-training-jogger-4/900/1080"
+        "/images/u39.jpg",
+        "/images/u09.jpg",
+        "/images/u04.jpg",
+        "/images/u07.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1829,10 +1829,10 @@
         "bestseller"
       ],
       "images": [
-        "https://picsum.photos/seed/everyday-belt-bag-1l-1/900/1080",
-        "https://picsum.photos/seed/everyday-belt-bag-1l-2/900/1080",
-        "https://picsum.photos/seed/everyday-belt-bag-1l-3/900/1080",
-        "https://picsum.photos/seed/everyday-belt-bag-1l-4/900/1080"
+        "/images/u17.jpg",
+        "/images/u42.jpg",
+        "/images/u48.jpg",
+        "/images/u45.jpg"
       ],
       "bestsellerColours": [
         {
@@ -1929,10 +1929,10 @@
         "activity"
       ],
       "images": [
-        "https://picsum.photos/seed/studio-mat-5mm-1/900/1080",
-        "https://picsum.photos/seed/studio-mat-5mm-2/900/1080",
-        "https://picsum.photos/seed/studio-mat-5mm-3/900/1080",
-        "https://picsum.photos/seed/studio-mat-5mm-4/900/1080"
+        "/images/u35.jpg",
+        "/images/u33.jpg",
+        "/images/u02.jpg",
+        "/images/u32.jpg"
       ],
       "bestsellerColours": [
         {
@@ -2005,10 +2005,10 @@
         "markdown"
       ],
       "images": [
-        "https://picsum.photos/seed/cinch-tote-bag-18l-1/900/1080",
-        "https://picsum.photos/seed/cinch-tote-bag-18l-2/900/1080",
-        "https://picsum.photos/seed/cinch-tote-bag-18l-3/900/1080",
-        "https://picsum.photos/seed/cinch-tote-bag-18l-4/900/1080"
+        "/images/u49.jpg",
+        "/images/u48.jpg",
+        "/images/u45.jpg",
+        "/images/u47.jpg"
       ],
       "bestsellerColours": [
         {
