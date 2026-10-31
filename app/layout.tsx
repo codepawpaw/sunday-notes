@@ -5,7 +5,7 @@ import "./globals.css";
 const sans = Inter_Tight({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "sunday | Technical athletic apparel",
+  title: "sunday notes | Technical athletic apparel",
   description: "Activewear for training, running and everyday movement.",
 };
 

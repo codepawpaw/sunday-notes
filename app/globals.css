@@ -69,7 +69,7 @@ input, select, textarea { font: inherit; }
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 .header.scrolled { margin-top: 0; }
-.logo { display: flex; align-items: center; gap: 6px; font-weight: 600; font-size: 21px; letter-spacing: -0.03em; flex-shrink: 0; }
+.logo { display: flex; align-items: center; gap: 6px; font-weight: 600; font-size: 21px; letter-spacing: -0.03em; flex-shrink: 0; white-space: nowrap; }
 .logo svg { width: 17px; height: 17px; }
 .nav { flex: 1; display: flex; justify-content: center; gap: 23px; }
 .nav a { font-size: 14.5px; font-weight: 500; white-space: nowrap; position: relative; padding: 14px 0; }
